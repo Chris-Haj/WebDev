@@ -51,6 +51,13 @@
     height: 300px;
     width: 30%;
 }
+
+#left img, #right img{
+    height: 100%;
+    width:100%
+}
+
+
 #mid{
     background-color: gray;
     height: 300px;
