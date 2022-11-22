@@ -1,0 +1,71 @@
+
+
+#header{
+    display: grid;
+    justify-content: center;
+    background-image: linear-gradient(to right,blue,cyan);
+}
+
+#header h1{
+    font-family: "Agency FB";
+}
+
+#navBar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navBar button{
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+    color: lightblue;
+    font-size: large;
+    font-family: "Arial Black";
+    animation: glow 1s ease-in-out infinite alternate;
+    background-image: linear-gradient(to right,mediumpurple,black,mediumpurple);
+}
+
+#navBar button:hover{
+    background-image: linear-gradient(180deg,white,black);
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+#midSection{
+    display: flex;
+    /*justify-content: stretch;*/
+    height: 500px;
+
+}
+
+#left{
+    background-color: black;
+    height: 300px;
+    width: 30%;
+}
+#mid{
+    background-color: gray;
+    height: 300px;
+    width: 60%;
+}
+#right{
+    background-color: darkslategray;
+    height: 300px;
+    width: 30%;
+}
+
+
+#footer{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
