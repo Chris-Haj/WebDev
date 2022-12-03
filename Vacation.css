@@ -10,10 +10,10 @@ body {
     background-image: linear-gradient(to right,blue,cyan);
 
 }
-#header h2{
-
+#header h2 , #header h1{
     font-family: "Agency FB";
 }
+
 #title{
     padding-right: 12%;
     display: flex;
@@ -29,10 +29,6 @@ body {
     height: 140px;
 }
 
-#header h1{
-    font-family: "Agency FB";
-}
-
 #navBar{
     display: flex;
     justify-content: space-evenly;
@@ -42,53 +38,44 @@ body {
     height: 80px;
     width: 100%;
     font-weight: bold;
-    color: lightblue;
     font-size: large;
     font-family: "Arial Black";
-    animation: glow 1s ease-in-out infinite alternate;
-    background-image: linear-gradient(to right,mediumpurple,black,mediumpurple);
+    background-color:#e03615
+    /*background-image: linear-gradient(to right,cyan,black,cyan);*/
 }
 
 #navBar button:hover{
-    background-image: linear-gradient(180deg,white,black);
-}
-
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
+    /*background-image: linear-gradient(180deg,white,black);*/
 }
 
 #midSection{
     display: flex;
-    /*justify-content: stretch;*/
-    height: 500px;
-
+    height: 600px;
 }
 
-#left{
+#right{
     background-color: black;
-    height: 300px;
+    height: inherit;
     width: 30%;
 }
 
-#left img, #right img{
-    height: 100%;
+#right img{
+    height: 50%;
     width:100%
 }
-
+#left img{
+    height: inherit;
+    width: 100%;
+}
 
 #mid{
-    background-color: gray;
+    background-color: white;
     height: 300px;
     width: 60%;
 }
-#right{
+#left{
     background-color: darkslategray;
-    height: 300px;
+    height: 600px;
     width: 30%;
 }
 
