@@ -7,8 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right,blue,cyan);
-
+    background-image: linear-gradient(to right,#ffea00,#ffd000,#ffb700,#ffa200,#ff8800,#ff7b00);
 }
 #header h2 , #header h1{
     font-family: "Agency FB";
